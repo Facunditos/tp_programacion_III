@@ -3,7 +3,6 @@ from ..models.frontier import StackFrontier
 from ..models.solution import NoSolution, Solution
 from ..models.node import Node
 
-
 class UniformCostSearch:
     @staticmethod
     def search(grid: Grid) -> Solution:
